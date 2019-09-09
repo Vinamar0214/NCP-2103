@@ -33,7 +33,7 @@ namespace ACTIVITY
             {
                 webBrowser1.Navigate(toolStripComboBox1.Text);
                 toolStripComboBox1.Items.Add(toolStripComboBox1.Text);
-                if (toolStripComboBox1.Items.Count == 11)
+                if (toolStripComboBox1.Items.Count == 19)
                 {
                     toolStripComboBox1.Items.RemoveAt(0);
                 }
